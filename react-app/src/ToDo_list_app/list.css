@@ -1,0 +1,67 @@
+
+
+.add {
+  padding: 0px;
+  display: flex;
+  gap: 0;
+}
+
+.outer {
+  background-color: black;
+}
+
+.outer h1 {
+  color: white;
+}
+
+.but {
+  background-color: green;
+  color: white;
+  font-size: 2rem;
+  margin: 0;
+  padding:5px;
+  border-radius: 10px;
+  margin-left: 0px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: capitalize;
+  font-weight: bolder;
+}
+
+.inp {
+  height: 1.8rem;
+  font-size: 1.5rem;
+}
+
+.list-div {
+  align-items: center;
+  min-height: 4rem;
+  background-color: white;
+  list-style-type: decimal;
+  font-size: 30px;
+  flex-grow: 1;
+  margin: auto;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+  padding: 7px;
+}
+
+.buts{
+  display: flex;
+  align-items: center;
+}
+
+.hands{
+  background-color:lightblue ;
+  font-size: 24px;
+  font-weight: bolder;
+  border-radius: 4px;
+}
+.del{
+  background-color: red;
+  font-size: 23px;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}

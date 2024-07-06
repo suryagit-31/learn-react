@@ -1,19 +1,22 @@
-import Card from "./cards/card.jsx";
-import Names from "./names.jsx";
-import Button from "./button.jsx";
-import Greet from "./greeetings.jsx";
-
-import Veg from "./vrg.jsx";
-
+import Effect from "./effect";
+import Names from "./names";
+import ComponentA from "./componentA";
+import Watch from "./Stop_Watch/Sw.jsx";
+import Refer from "./refe.jsx";
+import Responsive from "./responsive/index.jsx";
+import Bar from "./bar.jsx";
 import IMG from "./imge.jsx";
+import Greet from "./greeetings.jsx";
+import Foods from "./foods.jsx";
+import Button from "./Cars.jsx";
+import Color from "./color_picker.jsx";
+import Digi from "./digital_clock/clock.jsx";
 function App() {
-
- const k=(
-  <IMG/>
-  
- );
-
-
+  const k = (
+    <>
+      <Foods/>
+    </>
+  );
 
   return k;
 }

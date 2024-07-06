@@ -4,17 +4,16 @@ function Greet() {
     { id: 1, name: "apple", calories: 90 },
     { id: 2, name: "orange", calories: 110 },
     { id: 3, name: "mango", calories: 492 },
-    { id: 4, name: "goa", calories: 37 },
+    new Object({ id: 4, name: "goa", calories: 37 }),
   ];
 
-  //fruits.sort((a, b) => a.name.localeCompare(b.name)); use localecompare to    compare names 
+  //fruits.sort((a, b) => a.name.localeCompare(b.name)); use localecompare to    compare names
   // fruits.sort((a,b)=>b.id-a.id) desecnding order
   fruits.sort((a, b) => a.id - b.id); //ascending order
 
   const lowcal = fruits.filter((fruit) => fruit.calories < 100);
 
   const highcal = fruits.filter((fruit) => fruit.calories > 100);
-
 
   const items = fruits.map((fruit) => {
     return (
@@ -30,11 +29,11 @@ function Greet() {
     </li>
   ));
 
-   const highs = highcal.map((peel) => (
-     <li key="peel.id">
-       {peel.id} : {peel.name} : {peel.calories}
-     </li>
-   ));
+  const highs = highcal.map((peel) => (
+    <li key="peel.id">
+      {peel.id} : {peel.name} : {peel.calories}
+    </li>
+  ));
 
   return (
     <>
